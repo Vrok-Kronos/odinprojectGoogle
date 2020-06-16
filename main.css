@@ -33,6 +33,7 @@ body {
 }
 
 .BannerBoxRight {
+    width: 200px;
     height: 48px;
     padding: 0 4px;
     flex: 0 0 auto;
@@ -56,9 +57,14 @@ body {
 }
 
 .Logo {
+    width: 582px;
     margin: 50px auto;
-    display: flex;
-    justify-content: center;
+    display: block;
+}
+
+.Logo img {
+    display: block;
+    margin: auto;
 }
 
 .SearchBox {
@@ -76,8 +82,32 @@ body {
     align-content: center;
 }
 
-.Search input {
+.SearchIcon {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
 
+}
+
+.Text {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Text:active {
+    border: none;
+}
+
+.SearchOptions {
+    display: block;
+    width: auto;
+    margin: 25px auto;
+    text-align: -webkit-center;
+}
+
+.SearchButtons {
+    display: inline-block;
 }
